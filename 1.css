@@ -1,0 +1,463 @@
+*{margin:0;padding:0; }
+.tieude
+{
+	font-family: 'Pacifico', cursive;
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Lobster', cursive;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+/*phan header*/
+ .header
+ {
+ 	background-image: url(https://scontent.fsgn5-2.fna.fbcdn.net/v/t1.0-9/44598552_757307277943308_5364812656949592064_o.jpg?_nc_cat=107&_nc_oc=AQnGbIHC_V4TQl9qZADEvKY7NbGWRYx84Q_fTP-ferdUgvn1Pu2niskS72xYFOMCUVg&_nc_ht=scontent.fsgn5-2.fna&oh=e61d24522788d691cdc182434f37f636&oe=5D031660);
+ 	background-size: 100% 100%;
+ 	background-repeat: no-repeat;
+ 	height:760px;
+ 	min-height: 100%;
+ 	margin-left: 0px;
+ 	margin-right: 0px;
+ 	z-index: 2;
+ 	background-attachment:fixed;
+ 
+ }
+ .header-tran
+ {
+ 	margin-top: 0px;
+ 	position: absolute;
+ 	width: 100%;
+ 	height: 760px;
+ 	background: black;
+ 	z-index: 1;
+ 	opacity: .5;
+ }
+.container-fluid
+{
+	padding-left: 0px;
+	padding-right: 0px;
+}.navbar
+{
+	margin-top: 30px;
+	border-radius: 0px;
+	border:none;
+	background: transparent;
+	z-index: 3;
+}
+.navbar .navbar-brand
+{
+	color:white;
+	padding-left: 200px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Pacifico', cursive;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Lobster', cursive;
+}
+
+.header .txt
+{
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 100px;
+	font-family: 'Pacifico', cursive;
+
+}
+.header-con
+{
+	z-index: ;
+}
+.header .txt a
+{
+	font-size: 25px;
+	font-style: italic;
+	color: white;
+	padding-left: 10px;
+	text-decoration: none;
+	border-bottom: 2px solid white;
+	padding :5px;
+}
+.header .txt h2
+{
+	color: white;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+ /*end header*/
+ /*phan intro*/
+ .intro
+ {
+
+ 	height: 474px;
+ 	background-color:#1b1b1b;
+ 	color: white;	
+ }
+ .intro .col1
+ {
+ 	padding-top: 18px;
+ }
+ .intro h4
+ {
+ 	color: gray;
+ 	font-style: italic;
+ 	font-size:20px;
+ }
+ .intro .text-center
+ {
+ 	padding-top: 5px;
+ }
+ .intro img
+ {
+ 	width: 80px;
+ 	margin-bottom:10px;
+ }
+ /*end intro*/
+/*service*/
+.service
+{
+	height: 680px;
+	background: black;
+}
+
+.hinh .fab
+{
+	font-size: 50px;
+	color: white;
+	border: 1px solid white;
+	padding: 20px;
+}
+.hinh
+{
+	transition: .5s;
+}
+.tab
+{
+	    margin-top: 100px;
+}
+.intro .hinh:hover
+{
+	transform: rotate(360deg);
+	
+}
+.fab:hover
+{
+	transform: rotate(0deg);
+	background: #ce9c6b;
+	color:black;
+}
+/*end service*/
+/*do it*/
+.do_it
+{
+	height: 200px;
+	background:#1b1b1b;
+}
+
+/*end do it*/
+/*style*/
+.style
+{
+	height:540px;
+	background:green;
+}.style .img-intro-main
+{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.style .intro-small
+{
+
+	height: 270px;
+	background: black;
+}
+.style .img
+{
+
+	height: 270px;
+	background: red;
+}
+.style .img img
+{
+	height: 270px;
+	width: 100%;
+}
+.style .intro1 h4
+{
+	color:orange;
+	font-size: 23px;
+	font-weight: bold;
+	font-family: 'Pacifico', cursive; 
+}
+.style .intro1 p
+{
+	padding-top: 10px;
+	color: gray;
+	font-size: 16px;
+	font-style: italic;
+	font-family: Playfair Display;
+}
+/*end style*/
+/*giá thành*/
+.giathanh
+{
+	height: 500px;
+	background: #1b1b1b;
+}
+.giathanh .col-xs-3.col-sm-3.col-md-3.col-lg-3 {
+    margin-top: 40px;
+}
+.giathanh .col-xs-9.col-sm-9.col-md-9.col-lg-9 {
+    margin-top: 40px;
+}
+.giathanh .style1
+{
+	font-weight: bold;
+	font-style: 25px;
+	color: white;
+	font-family: Playfair Display;
+}
+.giathanh .gia-detail
+{
+	font-style: italic;
+	font-style: 25px;
+	color: orange;
+	font-family: Playfair Display;
+}
+/*end giá thành*/
+/*giarm giá*/
+.giamgia
+{
+	height: 350px;
+	background: url(https://images.pexels.com/photos/446596/pexels-photo-446596.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+/*end giảm giá*/
+/*tho*/
+.tho
+{
+	height: 600px;
+	background:#1b1b1b;
+}
+.tho .thumbnail
+{
+	background:transparent;
+	border: 2px solid orange;
+}
+.tho img
+{
+	width: 100px;
+	height: 100px;	
+	margin-top: 10px;
+}
+.tho .thumbnail
+{
+	padding: 30px;
+	margin-top: 50px;
+}
+.tho .mot
+{
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Playfair Display;
+	color: orange;
+}
+.tho .hai
+{
+	font-size: 18px;
+	font-style: italic;
+	font-family: Playfair Display;
+	color: white;
+}
+/*GEL*/
+.gel
+{
+	height: 716px;
+	background: black;
+}
+.gel .thumbnail
+{
+	margin-top: 80px;
+	background: transparent;
+	padding: 0px;
+	border: 2px solid orange;
+	box-sizing: border-box;
+}
+.gel .caption
+{
+	padding: 0px;
+}
+.gel img
+{
+	border-bottom: 3px solid orange;
+	box-sizing: border-box;
+}
+/*end gel*/
+/*gallery*/
+.gallery
+{
+	height: 500px;
+	background:#1b1b1b;
+}
+.gallery img
+{
+	width: 100%;
+	height:300px;
+}
+.gallery .col-xs-3.col-sm-3.col-md-3.col-lg-3 {
+    padding: 0px;
+    margin-top: 50px;
+}
+
+/*end gallery*/
+/*view*/
+.view
+{
+	height: 200px;
+	background: black;
+}
+.view .box
+{
+	margin-top: 50px;
+	width: 100%;
+	height: 100px;
+	border:1px solid orange;
+	font-size: 15px;
+	
+	}
+.view span
+{
+	color:white;
+}
+.view .dem
+{
+	color:orange;
+
+}
+/*end view*/
+.map-comment
+{
+	height: 571px;	
+}
+.col-xs-6.col-sm-6.col-md-6.col-lg-6 {
+    padding: 0px;
+}
+.footer
+{
+	height: 100px;
+	background: black;
+}
+/*responsive*/
+@media only screen and (max-width: 900px) {
+	.header
+	{
+		height: 900px;
+	}
+	 .header-tran
+	 {
+	 	height: 900px;
+	 }
+  .navbar .navbar-brand{
+  		margin-left: 0%;
+  }
+  .txt video
+  {
+  	width: 50%;
+  	height: auto;
+  	padding-top: 20px
+  }
+  .navbar-nav .open .dropdown-menu {
+  	color:white;
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: black;
+    border-bottom: 1px solid gray;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .navbar-nav {
+    margin: 0;
+}
+/*end header*/
+/*service*/
+.service
+{
+	height: 900px;
+}
+/*style*/
+.style
+{
+	height: 300px;
+	overflow: hidden;
+}
+.style .intro-small
+{
+	height: 150px;
+}
+.style .img img
+{
+	height: 150px;
+}
+.style .img2
+{
+	height: 150px;
+}
+.style .img4
+{
+	height: 150px;
+}
+.style .img6
+{
+	height: 150px;
+}
+.style .intro1 p
+{
+
+	font-size: 10px;
+}
+.style .intro1 h4
+{
+	font-size: 17px;
+}
+/*giathanh*/
+.giathanh
+{
+	height: 630px;
+}
+.giathanh .style1
+{
+	font-size: 15px;
+}
+.giathanh .gia-detail
+{
+	font-size: 15px
+}
+/*giảm giá*/
+.giamgia
+{
+	height: 450px;
+}
+/*tho*/
+.tho
+{
+	height: 1100px;
+}
+.tho .thumbnail
+{
+	padding: 10px;
+	margin-top: 0px;
+}
+/*gel*/
+.gel
+{
+	height: 900px;
+
+}.gel .thumbnail
+{
+	margin-top: 10px;
+}
+}
